@@ -8,8 +8,8 @@
 }
 body{
   display: flex;
-  padding: 0 11px;
-  min-height: 101vh;
+  padding: 0 10px;
+  min-height: 100vh;
   align-items: center;
   background: #17557D;
   justify-content: center;
@@ -19,8 +19,8 @@ body{
   background: #3498DB;
 }
 .wrapper{
-  height: 276px;
-  max-width: 411px;
+  height: 275px;
+  max-width: 410px;
   background: #fbfbfb;
   border-radius: 8px;
   padding: 20px 25px 0;
@@ -28,7 +28,7 @@ body{
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 .wrapper.active{
-  height: 531px;
+  height: 530px;
 }
 header h1{
   font-size: 20px;
@@ -43,15 +43,15 @@ header p{
   margin: 20px 0 25px;
 }
 .form :where(input, button){
-  width: 101%;
-  height: 56px;
+  width: 100%;
+  height: 55px;
   border: none;
   outline: none;
   border-radius: 5px;
   transition: 0.1s ease;
 }
 .form input{
-  font-size: 21px;
+  font-size: 20px;
   padding: 0 17px;
   border: 1px solid #000;
 }
@@ -64,7 +64,7 @@ header p{
 .form button{
   color: #fbfbfb;
   cursor: pointer;
-  margin-top: 21px;
+  margin-top: 20px;
   font-size: 18px;
   background: #FF861B;
 }
@@ -84,7 +84,7 @@ header p{
   transition: opacity 0.5s 0.05s ease;
 }
 .qr-code img{
-  width: 171px;
+  width: 170px;
 }
 
 @media (max-width: 430px){
@@ -99,9 +99,9 @@ header p{
     color: #696969;
   }
   .form :where(input, button){
-    height: 52px;
+    height: 50px;
   }
   .qr-code img{
-    width: 161px;
+    width: 160px;
   }  
 }
