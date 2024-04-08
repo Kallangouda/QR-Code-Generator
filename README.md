@@ -11,3 +11,9 @@ This project is a simple QR Code Generator implemented in [programming language]
 - Generate QR codes for URLs, text, contact information, and more.
 - Customize QR code size and color.
 - Save generated QR codes as image files.
+- Responsive design for seamless usage across different devices.
+
+## Technologies Used:
+- HTML/CSS: Frontend development for the user interface.
+- JavaScript: Backend logic for generating passwords and handling user interactions.
+- Bootstrap: For responsive design and layout.
